@@ -24,7 +24,7 @@ cp *.wav /home/$USER/SuoniAvvio
 cd /home/$USER/SuoniAvvio
 touch start
 echo "#!/bin/bash" >> start
-echo "sleep 0" >> start
+echo "sleep 1" >> start
 echo "StartupNotify=false" >> start
 echo "/usr/bin/mplayer /home/$USER/SuoniAvvio/sound6.wav" >> start
 chmod u+x start
